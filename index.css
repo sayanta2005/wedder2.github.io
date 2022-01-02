@@ -1,0 +1,75 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .background{
+     width: 100%;
+     height: 100vh;
+     background-image: url('https://www.mcall.com/resizer/mCS3gii-kruqN0jBr0IRzwdI_88=/800x449/top/www.trbimg.com/img-5b97f226/turbine/mc-1536684578-ivn6luxmzo-snap-image');
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     opacity: 0.5;
+    }
+    
+    .mainheader{
+     width: 100%;
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+    
+    .mainheader .logo img{
+     width: 250px; height: 170px;
+     padding-left: 60px;
+     padding-top: 60px;
+    }
+    
+    .mainheader nav{
+     width: 450px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    }
+    
+    .mainheader nav a{
+     text-decoration: none;
+     color: black;
+     text-transform: uppercase;
+    }
+    
+    main{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+    
+    main .right-sec{
+     padding-right: 70px;
+    }
+    
+    main .left-sec{
+     padding-left: 100px;
+    }
+    
+    .left-sec h2{
+     font-size: 20px;
+     text-transform: capitalize;
+     font-weight: lighter;
+     color: #242424;
+     margin-top: 100px;
+    }
+    
+    .left-sec h1{
+     font-size: 55px;
+     text-transform: capitalize;
+     font-weight: 700;
+     margin: 15px 0;
+    }
+    
+    .left-sec p{
+     margin-bottom: 20px;
+    }

@@ -1,0 +1,8 @@
+.navbar-nav li a{
+    transition: 0.7s ease;
+    margin: 18px;
+}
+
+.navbar-nav li a:hover{
+   background-color: black;
+}
